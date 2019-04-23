@@ -10,13 +10,14 @@ namespace SistemLangeri.Models
 
     public class Client 
     {
-        
-        
+
+        public int ClientId { get; set; }
         public int QtdDeCompUnit { get; set; }
         public int QtdDeCompUnitCalc { get; set; }
         public int QtdDeCompUnitSut { get; set; }
         public int QtdDeCompUnitConj { get; set; }
         public DateTime DateCli { get; set; }
+        public int PessoaId { get; set; }
         public virtual Pessoa Pessoa { get; set; }
 
     }

@@ -11,8 +11,7 @@ namespace SistemLangeri.Models
 
     public class Revendedor
     {
-        
-        
+        public int RevendedorId { get; set; }
         public DateTime DateRev { get; set; }
         public int QtdObtida { get; set; }
         public int QtdDeConjuntos { get; set; }
@@ -20,6 +19,7 @@ namespace SistemLangeri.Models
         public int QtdVendConj { get; set; }
         public int QtdVendAvul { get; set; }
         public double ValorTotal { get; set; }
+        public int PessoaId { get; set; }
         public virtual Pessoa Pessoa { get; set; }
     }
 }

@@ -8,7 +8,7 @@ namespace SistemLangeri.Models
 {
     public class Estoque
     {
-        
+        public int EstoqueId { get; set; }
         
         public int QtdTotal { get; set; }
         public int QtdTotalConj { get; set; }
